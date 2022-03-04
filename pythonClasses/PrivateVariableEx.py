@@ -9,5 +9,5 @@ class PrivateVariableEx:
 pve = PrivateVariableEx()
 
 print(pve.var)
-##print(pve.privateVar)
+###print(pve.privateVar)
 """uncommenting private variable access retunrs an error"""
