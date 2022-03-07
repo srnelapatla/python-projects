@@ -9,4 +9,7 @@ lst1 = ["Red", "Green", "Orange", "White"]
 lst2 = ["Black", "Green", "White", "Pink"]
 print(set(lst1) & set(lst2))
 print(set(lst1).union(set(lst2)))
-#print(set(lst1).difference(set(lst2)))
+
+# following two stmts results the same output
+print(list(set(lst1) - set(lst2)))
+print(set(lst1).difference(set(lst2)))
